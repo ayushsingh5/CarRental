@@ -21,6 +21,7 @@ public class AdministratorController {
     @PostMapping("/api/administrator/car-categories")
     public ResponseEntity<CarCategory> createCarCategory(@RequestBody CarCategory carCategory) {
         // create car category
+        
     }
 
     @GetMapping("/api/administrator/car-categories")
